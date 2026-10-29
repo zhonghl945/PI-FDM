@@ -1,0 +1,23 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+.idea/
+dist/
+build/
+*.egg-info/
+
+# Generated datasets, checkpoints and plots belong to experiment artifacts.
+case_studies/*/data/
+case_studies/*/runs/
+results/
+results_*/
+checkpoints/
+*.h5
+*.pt
+*.pth
+*.log
+*.err
+*.out
